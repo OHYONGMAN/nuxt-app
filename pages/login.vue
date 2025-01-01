@@ -1,9 +1,8 @@
 <template>
   <div class="flex min-h-screen flex-col">
-    <form class="mt-10" @submit.prevent>
-      <h2 class="mb-8 text-center text-2xl font-bold">로그인</h2>
-
-      <div class="mb-8 px-4">
+    <h2 class="my-10 text-center text-2xl font-bold">로그인</h2>
+    <form @submit.prevent>
+      <div class="mb-10 px-4">
         <label for="email" class="block text-sm font-medium text-gray-500">
           이메일
         </label>
@@ -14,7 +13,7 @@
         />
       </div>
 
-      <div class="mb-8 px-4">
+      <div class="mb-10 px-4">
         <label for="password" class="block text-sm font-medium text-gray-500">
           비밀번호
         </label>
@@ -26,7 +25,7 @@
       </div>
       <div>
         <button
-          class="bg-customBlue-400 hover:bg-customBlue-500 relative mx-auto flex w-4/5 items-center justify-center rounded-full border border-gray-300 py-3 font-bold text-white transition"
+          class="relative mx-auto flex w-4/5 items-center justify-center rounded-full border border-gray-300 bg-customBlue-400 py-3 font-bold text-white transition hover:bg-customBlue-500"
         >
           로그인
         </button>
