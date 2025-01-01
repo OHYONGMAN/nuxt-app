@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   // TailwindCSS 설정 추가
-  css: ['~/assets/css/tailwind.css'],
+  css: ['~/assets/css/tailwind.css', '@/assets/css/main.css'],
 
   postcss: {
     plugins: {
