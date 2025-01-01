@@ -1,10 +1,8 @@
 <template>
   <div
-    class="bg-customBlue-200 flex min-h-screen flex-col items-center justify-center"
+    class="bg-customBlue-300 flex min-h-screen flex-col items-center justify-center"
   >
-    <!-- 로고 및 설명 -->
     <div class="mt-60 flex flex-col items-center justify-start text-white">
-      <!-- SVG 아이콘 -->
       <img
         class="mb-2 h-16 w-16"
         src="/icons/calendar.svg"
